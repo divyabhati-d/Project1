@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Form</title>
+
+    <body>
+        <form style = "background-color:darkgray;">
+        <fieldset>
+        <legend>personal detail</legend>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name"placeholder="Enter your name" value="Divya bhati" readonly><br>
+        <br>
+        <label for="password">password:</label>
+        <input type="password" id="password" maxlength="8" placeholder="Enter password" required><br><br>
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" placeholder="Enter your email"><br><br>
+        <label for="number">Enter your number:</label>
+        <input type="number" id="number" placeholder="Enter number" min="10" max="50"><br><br>
+        </fieldset>
+        <label for="date">Enter your DOB:</label>
+        <input type="date" id="date" min="1999-01-01" max="2050-01-01"><br><br>
+        <label for="file">Select your file:</label>
+        <input type="file" id="file" required multiple><br><br>
+        <label for="URL">Enter URL:</label>
+        <input type="url" id="URL" placeholder="url"><br><br>
+        <input type="image"
+         src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+         height="100" width="100"><br><br>
+         <!--image act as submit button -->
+         <p>Please select your gender</p>
+         <input type="radio" id="male" name="Gender">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="Gender">
+         <label for ="female">Female</label><br>
+         <input type="checkbox" name="<check">
+         <label for="Vehicles">Please select your vehicle </label>
+         <Select Size="03" id ="vehicle">
+            <option>car</option>
+            <option>scooty</option>
+            <option disabled>bus</option>
+         </Select><br><br>
+         <input list="Vehicles">
+         <datalist id="Vehicles">
+            <option value="car">
+            <option value="bike">
+            <option value="bus">
+         </datalist>
+
+         <input type="time">
+         <input type="Datetime-local"><br><br>
+         <input type="tel" pattern="[8-9]{4}-[0-9]{5}">
+         <textarea rows="10" col="20"></textarea>
+
+         
+
+
+            
+                
+<br>
+         <input type="submit" value="Login">
+
+    </form>
+ </body>
+</head>
+
+</html>
